@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
+  background-color: #F3F3F3;
 }
 
 ul { list-style: none; }
