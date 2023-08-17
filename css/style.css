@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body { font-family: "Roboto", sans-serif; }
+
+ul { list-style: none; }
+
+header {
+  width: 100%;
+  background-color: #222222;
+  color: #FFF;
+  padding: 10px 0;
+}
+
+/* Flexbox */
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 100%;
+}
+
+.space-between { justify-content: space-between; }
+.align-center { align-items: center; }
+
+
+/* Estilos generales */
+.red {  color: #FC200C }
+.green { color: #39B24A }
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.nav-list {
+  height: 100%;
+  display: flex;
+}
+
+.nav-link {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 13px;
+}
